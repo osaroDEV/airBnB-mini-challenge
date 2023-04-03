@@ -6,7 +6,7 @@ import CardGrid from './components/CardGrid';
 export default function App() {
   return (
     <div
-      className='font-poppins'
+      className='font-poppins h-screen w-screen'
     >
       <NavBar />
       <Hero />

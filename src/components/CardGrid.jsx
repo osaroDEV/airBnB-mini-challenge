@@ -5,7 +5,7 @@ import data from '../assets/data';
 
 const CardGrid = () => {
   return (
-    <div className='flex'>
+    <div className='flex overflow-x-auto'>
       {data.map((info) => {
         return (
           <div key={info.id}>
